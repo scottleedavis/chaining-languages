@@ -1,7 +1,7 @@
-# chaining-languages
+# chaining languages
 examples of embedding programming languages in other programming languages
 
-go -> perl -> bash
+### go -> perl -> bash
 ```go
 package main
 
@@ -19,7 +19,7 @@ func main() {
 }
 ```
 
-java -> python -> lua
+### java -> python -> lua
 ```java
 import org.python.util.PythonInterpreter;
 
