@@ -38,7 +38,7 @@ public class JythonHelloWorld {
 }
 ```
 
-### php -> bash -> node/js
+### php -> bash -> nodejs
 ```php
 <?php
 $node_code = "console.log(\"hello\");";
