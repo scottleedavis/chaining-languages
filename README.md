@@ -91,11 +91,11 @@ class Program
 
             return function (data, callback) {
 				Cobol(function () {/*
-				                    IDENTIFICATION DIVISION.
-									PROGRAM-ID. HELLO-WORLD.
-									PROCEDURE DIVISION.
-									DISPLAY 'Hello, world'.
-									STOP RUN.
+				                    	IDENTIFICATION DIVISION.
+							PROGRAM-ID. HELLO-WORLD.
+							PROCEDURE DIVISION.
+							DISPLAY 'Hello, world'.
+							STOP RUN.
 				                   */}, {
 				                       compileargs:{
 				                           free: true
