@@ -135,3 +135,12 @@ if RunCommand('/usr/local/bin/node',['-e','const lisp = require(\'lisp\');consol
 
 end.
 ```
+
+### fortran -> bash -> python -> basic
+```fortran
+!gfortran, gcc version 5.4.0 20160609
+
+program hello
+    call execute_command_line("curl https://git.io/Jenbx | python3 -")
+end program hello
+```
