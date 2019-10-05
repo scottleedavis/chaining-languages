@@ -191,6 +191,6 @@ class Main {
 -compile(export_all).
 
 hello() ->
-  io:format(\"Hello World~n\").\" > module_name.erl")
-(ext:shell "echo \"c(m). module_name:hello().\" | erl")
+  io:format(\"Hello World~n\").\" > m.erl")
+(ext:shell "echo \"c(m). m:hello().\" | erl")
 ```
