@@ -214,3 +214,16 @@ PythonShell.runString(foo, null, function (err, results) {
   console.log('finished', results);
 });
 ```
+
+### rust -> bash -> perl
+```rust
+use std::process::Command;
+
+fn main() {
+    Command::new("perl")
+        .arg("-e")
+        .arg("print 'hello';")
+        .spawn()
+        .expect("hello");
+}
+```
